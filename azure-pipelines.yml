@@ -22,6 +22,6 @@ steps:
     csmFile: 'CreateWebApp/azuredeploy.json'
     overrideParameters: |
       -projectName ztth 
-      -linkedTemplateUri https://github.com/ztoth123/azure_arm_pipe01/blob/master/CreateWebApp/linkedStorageAccount.json
+      -linkedTemplateUri https://raw.githubusercontent.com/ztoth123/azure_arm_pipe01/master/CreateWebApp/linkedStorageAccount.json
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
